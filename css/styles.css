@@ -14,6 +14,20 @@ body {
     color: var(--color-text);
 }
 
+.container{
+    width: 1158px;
+}
+
+.section{
+    padding: 120px;
+}
+
+.header{
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: var(--color-accent);
+}
+
 .logo {
     color: var(--color-primary-brand);
 }
