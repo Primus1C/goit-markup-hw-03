@@ -12,14 +12,31 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: var(--color-text);
+    background-color: var(--color-inverted);
+}
+
+p,
+h1,
+h2,
+h3,
+h4 {
+    margin-top: 0px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
 }
 
 .container{
-    width: 1158px;
+    width: 100%;
+    max-width: 1178px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 .section{
-    padding: 120px;
+    margin-bottom: 120px;
 }
 
 .header{
@@ -55,18 +72,11 @@ body {
     /*display: block;*/
 }
 
-.nav-list .list-item + .list-item {
-    margin-left: 40px;
-}
-
 .list {
     display: flex;
     list-style-type: none;
+    gap: 20px;
 }
-
-/*.list li {
-    outline: tomato 1px;
-}*/
 
 .header-link {
     display: block;
