@@ -48,12 +48,14 @@ ul {
 .header-container{
     display: flex;
     align-items: center;
+    gap: 40px;
 }
 
 .header-nav {
     display: flex;
     align-items: center;
     flex-grow: 1;
+    gap: 76px;
 }
 
 .logo {
@@ -66,8 +68,9 @@ ul {
     font-weight: 800;
     line-height: 1.3;
     text-transform:uppercase;
-    text-decoration: none;   
-        margin-right: 20px;
+    text-decoration: none;  
+    
+       /* margin-right: 20px; */
 }
 
 .logo-link-dark {
@@ -78,15 +81,17 @@ ul {
     color: var(--color-light);
 }
 
-.tmp-list li {
+/*.tmp-list li {
     outline: 1px solid red;
-    /*display: block;*/
-}
+}*/
 
 .list {
     display: flex;
     list-style-type: none;
-    gap: 20px;
+}
+
+.list-header {
+    gap: 40px;
 }
 
 .header-link {
@@ -179,6 +184,10 @@ ul {
 .button-filter:focus {
     color: var(--color-inverted);
     background: var(--pressed-state);
+}
+
+.list-advantage {
+    gap: 24px;
 }
 
 .team {
