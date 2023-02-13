@@ -7,12 +7,12 @@
     --color-light: #F4F4FD;
     --color-inverted: #FFFFFF;
 }
-
-body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    color: var(--color-text);
-    background-color: var(--color-inverted);
+* 
+*::before
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 p,
@@ -23,6 +23,13 @@ h4 {
     margin-top: 0px;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: var(--color-text);
+    background-color: var(--color-inverted);
+}
+
 ul {
     margin: 0;
     padding: 0;
@@ -30,14 +37,13 @@ ul {
 
 .container{
     width: 100%;
-    max-width: 1178px;
+    max-width: 1158px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 15px 120px 15px;
 }
 
-.section{
-    margin-bottom: 120px;
-}
+
+/* ===================================== HEADER */
 
 .header{
     border-bottom-width: 1px;
@@ -69,8 +75,6 @@ ul {
     line-height: 1.3;
     text-transform:uppercase;
     text-decoration: none;  
-    
-       /* margin-right: 20px; */
 }
 
 .logo-link-dark {
@@ -81,13 +85,10 @@ ul {
     color: var(--color-light);
 }
 
-/*.tmp-list li {
-    outline: 1px solid red;
-}*/
-
 .list {
     display: flex;
     list-style-type: none;
+    gap: 24px;
 }
 
 .list-header {
@@ -130,8 +131,16 @@ ul {
     color: var(--pressed-state);
 }
 
+
+/* ===================================== HERO */
+.section {
+    display: block;
+}
+
 .hero {
     background-color: var(--color-dark);
+    align-items: center;
+    text-align: center;
 }
 
 .hero-title {
@@ -139,16 +148,17 @@ ul {
     font-weight: 700;
     line-height: 1.1;
     color: var(--color-inverted);
-}
-
-.hidden-title {
-    display: none
+    width: 496px;
+    padding-top: 188px;
+    padding-bottom: 48px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .button {
     width: 169px;
     padding: 16px 32px;
-
+    margin-bottom: 188px; 
     font-family: inherit;
     font-weight: 500;
     line-height: 1.5;
@@ -186,13 +196,47 @@ ul {
     background: var(--pressed-state);
 }
 
+
+/* ===================================== ADVANTAGE */
+
+.hidden-title {
+    display: none
+}
 .list-advantage {
     gap: 24px;
 }
 
+/* ===================================== WHAT ARE WE DOING */
+
 .team {
+    padding-top: 120px;
+    /*padding-bottom: 120px;*/
     background-color: var(--color-light);
 }
+
+/* ===================================== OUR TEAM */
+
+.worker-list {
+    display: flex;
+    gap: 24px;
+
+}
+
+.list-item {
+    flex-basis: calc((100%-24)/4);
+    background-color: var(--color-inverted);
+
+}
+
+.worker {
+    text-align: center;
+    padding-bottom: 32px;
+}
+
+
+
+
+
 
 .image-with-bachground{
     background: var(--color-accent);
@@ -205,6 +249,7 @@ ul {
     color: var(--color-dark);
     text-transform: capitalize;
     text-align: center;
+    margin-bottom: 72px;
 }
 
 .subtitle {
@@ -212,6 +257,8 @@ ul {
     font-size: 20px;
     line-height: 1.2;
     color: var(--color-dark);
+    /*text-align: center;*/
+    padding-top: 32px;
 }
 
 .subtitle-portfolio {
@@ -239,4 +286,5 @@ ul {
     line-height: 1.5;
     color: var(--color-accent);
     width: 254px;
+    margin-top: 16px;
 }
