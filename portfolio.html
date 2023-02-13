@@ -19,43 +19,53 @@
   </head>
 
   <body class="body">
-    <header>
-      <nav>
-        <a class="logo-link logo-link-dark" href="./index.html" class="link">
-          <span class="logo">Web</span>Studio</a
-        >
-        <ul class="list">
-          <li>
-            <a class="header-link" href="./index.html">Studio</a>
-          </li>
-          <li>
-            <a class="header-link active-link" href="./portfolio.html"
-              >Portfolio</a
+    <header class="header">
+      <div class="container">
+        <div class="header-container">
+          <nav class="header-nav">
+            <a
+              class="logo-link logo-link-dark"
+              href="./index.html"
+              class="link"
             >
-          </li>
-          <li><a class="header-link" href="#">Contacts</a></li>
-        </ul>
-      </nav>
-      <address>
-        <ul class="list">
-          <li>
-            <a class="header-address" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
+              <span class="logo">Web</span>Studio</a
             >
-          </li>
-          <li>
-            <a class="header-address" href="tel:+110001111111"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+            <ul class="list list-header">
+              <li class="list-item">
+                <a class="header-link" href="./index.html">Studio</a>
+              </li>
+              <li class="list-item">
+                <a class="header-link active-link" href="./portfolio.html"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="list-item">
+                <a class="header-link" href="#">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <address>
+            <ul class="list list-header">
+              <li class="list-item">
+                <a class="header-address" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="list-item">
+                <a class="header-address" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+      </div>
     </header>
 
     <main>
       <section class="section">
         <h1 class="hidden-title">Portfolio</h1>
-        <ul class="list">
+        <ul class="list button-list">
           <li>
             <button class="button-filter button-default" type="button">
               All
@@ -69,107 +79,129 @@
           </li>
         </ul>
 
-        <ul class="list">
-          <li>
-            <a class="link-none-decor" href="#">
-              <img
-                src="./images/prtfl09.jpg"
-                alt="Ряд скриншотов банковского приложения для смартфона"
-                width="360"
-              />
-              <h3 class="subtitle-portfolio">Banking App Interface Concept</h3>
-              <p class="text-portfolio">App</p>
-            </a>
-          </li>
-          <li>
-            <a class="link-none-decor" href="#">
-              <img
-                src="./images/prtfl08.jpg"
-                alt="Рука подносит смартфон для бесконтактной оплаты к терминалу"
-                width="360"
-              />
-              <h3 class="subtitle-portfolio">Cashless Payment</h3>
-              <p class="text-portfolio">Marketing</p>
-            </a>
-          </li>
-          <li>
-            <a class="link-none-decor" href="#">
-              <img
-                src="./images/prtfl07.jpg"
-                alt="Открытый ноутбук и смартфон рядом с одинаковым открытым приложением"
-                width="360"
-              />
-              <h3 class="subtitle-portfolio">Meditaion App</h3>
-              <p class="text-portfolio">App</p>
-            </a>
-          </li>
-          <li>
-            <a class="link-none-decor" href="#">
-              <img
-                src="./images/prtfl06.jpg"
-                alt="Часть водительского места авто: руки на руле, смартфон с маршрутом"
-                width="360"
-              />
-              <h3 class="subtitle-portfolio">Taxi Service</h3>
-              <p class="text-portfolio">Marketing</p>
-            </a>
-          </li>
-          <li>
-            <a class="link-none-decor" href="#">
-              <img
-                src="./images/prtfl05.jpg"
-                alt="Несколько разноразмерных иллюстраций для смартфона в сказочно-фиолетовом стиле"
-                width="360"
-              />
-              <h3 class="subtitle-portfolio">Screen Illustrations</h3>
-              <p class="text-portfolio">Design</p>
-            </a>
-          </li>
-          <li>
-            <a class="link-none-decor" href="#">
-              <img
-                src="./images/prtfl04.jpg"
-                alt="Девушка в наушниках на улице радостно общается через смартфон"
-                width="360"
-              />
-              <h3 class="subtitle-portfolio">Online Courses</h3>
-              <p class="text-portfolio">Marketing</p>
-            </a>
-          </li>
-          <li>
-            <a class="link-none-decor" href="#">
-              <img
-                src="./images/prtfl03.jpg"
-                alt="Несколько Инстаграм-страниц единого светлого стиля"
-                width="360"
-              />
-              <h3 class="subtitle-portfolio">Instagram Stories Concept</h3>
-              <p class="text-portfolio">Design</p>
-            </a>
-          </li>
-          <li>
-            <a class="link-none-decor" href="#">
-              <img
-                src="./images/prtfl02.jpg"
-                alt="Дама несет свежие овощи и фрукты в сетчатой сумке"
-                width="360"
-              />
-              <h3 class="subtitle-portfolio">Organic Food</h3>
-              <p class="text-portfolio">Web Site</p>
-            </a>
-          </li>
-          <li>
-            <a class="link-none-decor" href="#">
-              <img
-                src="./images/prtfl01.jpg"
-                alt="Руки, добавляющие взбитое молоко в чашку с кофе"
-                width="360"
-              />
-              <h3 class="subtitle-portfolio">Fresh Coffee</h3>
-              <p class="text-portfolio">Web Site</p>
-            </a>
-          </li>
-        </ul>
+        <div class="container">
+          <ul class="list list-portfolio">
+            <li class="link-none-decor">
+              <a class="link-none-outline" href="#">
+                <img
+                  src="./images/prtfl09.jpg"
+                  alt="Ряд скриншотов банковского приложения для смартфона"
+                  width="360"
+                />
+                <div class="portfolio-descript">
+                  <h3 class="subtitle-portfolio">
+                    Banking App Interface Concept
+                  </h3>
+                  <p class="text-portfolio">App</p>
+                </div>
+              </a>
+            </li>
+            <li class="link-none-decor">
+              <a class="link-none-outline" href="#">
+                <img
+                  src="./images/prtfl08.jpg"
+                  alt="Рука подносит смартфон для бесконтактной оплаты к терминалу"
+                  width="360"
+                />
+                <div class="portfolio-descript">
+                  <h3 class="subtitle-portfolio">Cashless Payment</h3>
+                  <p class="text-portfolio">Marketing</p>
+                </div>
+              </a>
+            </li>
+            <li class="link-none-decor">
+              <a class="link-none-outline" href="#">
+                <img
+                  src="./images/prtfl07.jpg"
+                  alt="Открытый ноутбук и смартфон рядом с одинаковым открытым приложением"
+                  width="360"
+                />
+                <div class="portfolio-descript">
+                  <h3 class="subtitle-portfolio">Meditaion App</h3>
+                  <p class="text-portfolio">App</p>
+                </div>
+              </a>
+            </li>
+            <li class="link-none-decor">
+              <a class="link-none-outline" href="#">
+                <img
+                  src="./images/prtfl06.jpg"
+                  alt="Часть водительского места авто: руки на руле, смартфон с маршрутом"
+                  width="360"
+                />
+                <div class="portfolio-descript">
+                  <h3 class="subtitle-portfolio">Taxi Service</h3>
+                  <p class="text-portfolio">Marketing</p>
+                </div>
+              </a>
+            </li>
+            <li class="link-none-decor">
+              <a class="link-none-outline" href="#">
+                <img
+                  src="./images/prtfl05.jpg"
+                  alt="Несколько разноразмерных иллюстраций для смартфона в сказочно-фиолетовом стиле"
+                  width="360"
+                />
+                <div class="portfolio-descript">
+                  <h3 class="subtitle-portfolio">Screen Illustrations</h3>
+                  <p class="text-portfolio">Design</p>
+                </div>
+              </a>
+            </li>
+            <li class="link-none-decor">
+              <a class="link-none-outline" href="#">
+                <img
+                  src="./images/prtfl04.jpg"
+                  alt="Девушка в наушниках на улице радостно общается через смартфон"
+                  width="360"
+                />
+                <div class="portfolio-descript">
+                  <h3 class="subtitle-portfolio">Online Courses</h3>
+                  <p class="text-portfolio">Marketing</p>
+                </div>
+              </a>
+            </li>
+            <li class="link-none-decor">
+              <a class="link-none-outline" href="#">
+                <img
+                  src="./images/prtfl03.jpg"
+                  alt="Несколько Инстаграм-страниц единого светлого стиля"
+                  width="360"
+                />
+                <div class="portfolio-descript">
+                  <h3 class="subtitle-portfolio">Instagram Stories Concept</h3>
+                  <p class="text-portfolio">Design</p>
+                </div>
+              </a>
+            </li>
+            <li class="link-none-decor">
+              <a class="link-none-outline" href="#">
+                <img
+                  src="./images/prtfl02.jpg"
+                  alt="Дама несет свежие овощи и фрукты в сетчатой сумке"
+                  width="360"
+                />
+                <div class="portfolio-descript">
+                  <h3 class="subtitle-portfolio">Organic Food</h3>
+                  <p class="text-portfolio">Web Site</p>
+                </div>
+              </a>
+            </li>
+            <li class="link-none-decor">
+              <a class="link-none-outline" href="#">
+                <img
+                  src="./images/prtfl01.jpg"
+                  alt="Руки, добавляющие взбитое молоко в чашку с кофе"
+                  width="360"
+                />
+                <div class="portfolio-descript">
+                  <h3 class="subtitle-portfolio">Fresh Coffee</h3>
+                  <p class="text-portfolio">Web Site</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 

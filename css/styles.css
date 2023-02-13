@@ -43,7 +43,6 @@ ul {
     /*padding: 0 15px 120px 15px;*/
 }
 
-
 /* ===================================== HEADER */
 
 .header{
@@ -132,7 +131,6 @@ ul {
     color: var(--pressed-state);
 }
 
-
 /* ===================================== HERO */
 .section {
     display: block;
@@ -186,6 +184,7 @@ ul {
     border: 1px;
     border-radius: 4px;
     cursor: pointer;
+    padding: 16px;
 }
 
 .button-default {
@@ -199,12 +198,12 @@ ul {
     background: var(--pressed-state);
 }
 
-
 /* ===================================== ADVANTAGE */
 
 .hidden-title {
     display: none
 }
+
 .list-advantage {
     gap: 24px;
 }
@@ -213,7 +212,6 @@ ul {
 
 .team {
     padding-top: 120px;
-    /*padding-bottom: 120px;*/
     background-color: var(--color-light);
 }
 
@@ -223,23 +221,17 @@ ul {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
-
 }
 
 .list-item {
-    flex-basis: calc((100%-24)/4);
+    /*flex-basis: calc((100%-24)/4);*/
     background-color: var(--color-inverted);
-
 }
 
 .worker-descript {
     text-align: center;
     padding: 32px 16px;
 }
-
-
-
-
 
 .image-with-bachground{
     background: var(--color-accent);
@@ -266,11 +258,19 @@ ul {
     margin-bottom: 8px;
 }
 
+.link-none-decor{
+    text-decoration: none;
+    outline: 1px solid var(--color-accent);
+}
+
+/* ===================================== PORTFOLIO */
+
 .subtitle-portfolio {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     color: var(--color-dark);
+    padding-bottom: 8px;
 }
 
 .text-portfolio {
@@ -278,9 +278,29 @@ ul {
     color: var(--color-text);
 }
 
-.link-none-decor{
+.button-list {
+    justify-content: center;
+    padding-top: 96px;
+    padding-bottom: 72px;   
+}
+
+.list-portfolio {
+    display: flex;
+    flex-basis: calc((100%-24)/3);
+    flex-wrap: wrap;
+    row-gap: 48px;
+    column-gap: 24px;
+}
+
+.portfolio-descript{
+    padding: 32px 16px;
+}
+
+.link-none-outline {
     text-decoration: none;
 }
+
+/* ===================================== FOOTER*/
 
 .footer {
     background-color: var(--color-dark);
