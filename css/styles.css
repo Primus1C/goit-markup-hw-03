@@ -204,6 +204,7 @@ ul {
     line-height: 1.1;
     color: var(--color-dark);
     text-transform: capitalize;
+    text-align: center;
 }
 
 .subtitle {
