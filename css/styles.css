@@ -141,7 +141,7 @@ ul {
     background-color: var(--color-dark);
     align-items: center;
     text-align: center;
-    margin-bottom: 120px;
+    padding: 188px 0px;
 }
 
 .hero-title {
@@ -150,7 +150,6 @@ ul {
     line-height: 1.1;
     color: var(--color-inverted);
     width: 496px;
-    padding-top: 188px;
     padding-bottom: 48px;
     margin: 0 auto;
     text-align: center;
@@ -159,7 +158,6 @@ ul {
 .button {
     width: 169px;
     padding: 16px 32px;
-    margin-bottom: 188px; 
     font-family: inherit;
     font-weight: 500;
     line-height: 1.5;
